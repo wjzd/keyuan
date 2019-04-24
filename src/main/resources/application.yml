@@ -26,6 +26,10 @@ spring:
 #      roles:
 
 # 定位模板的目录
+  mvc:
+    static-path-pattern: /upload/**
+  resources:
+    static-locations: classpath:/upload/
 
 
 mybatis:
